@@ -1,0 +1,30 @@
+.Input{
+    display: block;
+    padding: 10px;
+    width: 80%;
+    margin: 15px auto;
+}
+.Invalid{
+    border:1px solid red;
+    background-color: rgb(241, 137, 125);
+}
+.Input:focus{
+    outline-color:none;
+    border : none;
+    background-color: rgb(240, 247, 247);
+}
+.ErrorMessage{
+    color : salmon;
+    font-size: 10px;
+}
+.Label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+.Select{
+    display: block;
+    padding: 10px;
+    width: 86%;
+    margin: 15px auto;
+}

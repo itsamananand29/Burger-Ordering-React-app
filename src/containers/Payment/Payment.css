@@ -1,0 +1,21 @@
+.Payment{
+    padding:auto;
+    box-shadow: 0 2px 3px gray;
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+.PaypalButtonContainer{
+    margin: auto ;
+    width: 200px;
+
+    text-align: center;
+    
+
+}
+@media(min-widht:500px){
+    .PaypalButtonContainer{
+        margin: auto;
+        width: 200px;
+    }
+}

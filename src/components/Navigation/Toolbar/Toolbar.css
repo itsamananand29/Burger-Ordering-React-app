@@ -1,0 +1,37 @@
+.Toolbar{
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #703809;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+.Toolbar nav{
+    height: 100%;
+}
+.Logo{
+    background-color: antiquewhite;
+    height: 80%;
+    padding: 0px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.Logo img {
+    height: 100%;
+}
+@media(max-width:500px){
+    .DesktopOnly{
+        display: none;
+    }
+}
+@media(min-width:500px){
+    .MobileOnly{
+        display: none;
+    }
+}
